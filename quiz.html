@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Quiz App</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #1e2a33;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 50px;
+    }
+    .question {
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+    button {
+      background: #1abc9c;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      margin: 5px;
+      cursor: pointer;
+    }
+    #result {
+      margin-top: 20px;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+  <h1>🧠 Quiz App</h1>
+  <div class="question" id="question"></div>
+  <div id="options"></div>
+  <div id="result"></div>
+  <a href="index.html" style="margin-top:20px;color:#1abc9c;">⬅ Back to Home</a>
+
+  <script>
+    const quiz = [
+      { q: "What does HTML stand for?", options: ["Hyper Text Markup Language", "Home Tool Markup Language", "Hyperlinks Text Mark Language"], correct: 0 },
+      { q: "Which language runs in a web browser?", options: ["Python", "JavaScript", "C++"], correct: 1 },
+      { q: "CSS is used for?", options: ["Styling", "Logic", "Database"], correct: 0 }
+    ];
+    let index = 0, score = 0;
+
+    function loadQuestion() {
+      if (index >= quiz.length) {
+        document.getElementById("result").innerHTML = `🎯 Your Score: ${score}/${quiz.length}`;
+        document.getElementById("question").innerHTML = "";
+        document.getElementById("options").innerHTML = "";
+        return;
+      }
+      const q = quiz[index];
+      document.getElementById("question").textContent = q.q;
+      document.getElementById("options").innerHTML = q.options.map((opt, i) => 
+        `<button onclick="checkAnswer(${i})">${opt}</button>`
+      ).join("");
+    }
+
+    function checkAnswer(i) {
+      if (i === quiz[index].correct) score++;
+      index++;
+      loadQuestion();
+    }
+
+    loadQuestion();
+  </script>
+</body>
+</html>
