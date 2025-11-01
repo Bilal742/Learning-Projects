@@ -46,15 +46,15 @@ This repository is part of my continuous learning journey — building small but
 ---
 
 ## 🔗 Live Demo
-👉 [Visit Live Website]([https://learning-projectss.netlify.app/])
+👉 [https://learning-projectss.netlify.app/])
 
 ---
 
 ## 📬 Contact
 **Muhammad Bilal**  
 📧 bilalusman1291@gmail.com  
-🌐 [Portfolio Website](https://smart-power-solution.netlify.app/)  
-🐙 [GitHub](https://github.com/Bilal742)
+🌐 [https://imuhammadbilal.netlify.app/]
+🐙 [https://github.com/Bilal742)]
 
 ---
 
