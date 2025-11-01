@@ -45,11 +45,6 @@ This repository is part of my continuous learning journey — building small but
 
 ---
 
-## 📸 Preview
-![Projects Preview](./preview.png)
-
----
-
 ## 🔗 Live Demo
 👉 [Visit Live Website]([https://learning-projectss.netlify.app/])
 
