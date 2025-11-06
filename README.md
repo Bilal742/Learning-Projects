@@ -46,14 +46,14 @@ This repository is part of my continuous learning journey — building small but
 ---
 
 ## 🔗 Live Demo
-👉 [https://learning-projectss.netlify.app/])
+👉 [https://ilearning-projects.vercel.app/])
 
 ---
 
 ## 📬 Contact
 **Muhammad Bilal**  
 📧 bilalusman1291@gmail.com  
-🌐 [https://imuhammadbilal.netlify.app/]
+🌐 [https://imuhammadbilal.vercel.app/]
 🐙 [https://github.com/Bilal742)]
 
 ---
