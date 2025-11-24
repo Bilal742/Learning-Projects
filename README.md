@@ -8,7 +8,7 @@ The design is fully responsive and modern.
 
 ---
 
-## Apps Included 📦
+## Apps Included 📦 
  
 ### 1. To-Do App ✅
 - Add, edit, and delete tasks  
