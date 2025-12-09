@@ -11,7 +11,7 @@ The design is fully responsive and modern.
 ## Apps Included 📦 
    
 ### 1. To-Do App ✅
-- Add, edit, and delete tasks  
+- Add, edit, and delete tasks   
 - Mark tasks as completed  
 - Filter tasks: All / Completed / Pending  
 - Clear all tasks  
